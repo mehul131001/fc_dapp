@@ -127,12 +127,25 @@ const emailsSubscriptionChart = {
 
 const completedTasksChart = {
   data: {
-    labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-    series: [[230, 750, 450, 300, 280, 240, 200, 190]],
+    labels: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ],
+    series: [[230, 750, 450, 300, 280, 240, 200, 190, 180, 150, 600, 500]],
   },
   options: {
     low: 0,
-    high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 1000, 
     chartPadding: {
       top: 0,
       right: 0,

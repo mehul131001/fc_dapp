@@ -52,28 +52,28 @@ const dashboardRoutes = [
   },
   {
     path: "/typography",
-    name: "Typography",
+    name: "Verification",
     rtlName: "طباعة",
     icon: LibraryBooks,
 
     layout: "/admin",
   },
-  {
-    path: "/icons",
-    name: "Icons",
-    rtlName: "الرموز",
-    icon: BubbleChart,
+  // {
+  //   path: "/icons",
+  //   name: "Icons",
+  //   rtlName: "الرموز",
+  //   icon: BubbleChart,
 
-    layout: "/admin",
-  },
-  {
-    path: "/maps",
-    name: "Maps",
-    rtlName: "خرائط",
-    icon: LocationOn,
+  //   layout: "/admin",
+  // },
+  // {
+  //   path: "/maps",
+  //   name: "Maps",
+  //   rtlName: "خرائط",
+  //   icon: LocationOn,
 
-    layout: "/admin",
-  },
+  //   layout: "/admin",
+  // },
   {
     path: "/notifications",
     name: "Notifications",
